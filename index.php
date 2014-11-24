@@ -50,7 +50,7 @@ SOFTWARE.
 	$cookie = $httplib->getCookieString($response["header"]);
 	$nickname = "";
 	$password = "";
-	if(isset($_REQUEST["nickname"]) || isset($_REQUEST["passoword"]))
+	if(isset($_REQUEST["nickname"]) || isset($_REQUEST["password"]))
 	{
 		$nickname = $_REQUEST["nickname"];
 		$password = $_REQUEST["password"];
